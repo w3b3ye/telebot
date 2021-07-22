@@ -1,3 +1,11 @@
+## Script to scrap users from a Telegram group. ##
+## License: MIT
+# Prerequisite ##
+# 1 - You should get api_id and api_hash first from telegram website.
+# 2 - You have to authorized your number once.
+# 3 - Your used should be part of the targeted group.
+## Script is only for educational purpose, you are responsible for its use ##
+
 from telethon import client
 from telethon.sync import TelegramClient
 from telethon.tl.functions.messages import GetDialogsRequest
